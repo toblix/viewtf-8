@@ -1,0 +1,19 @@
+.CodePoint {
+	padding: .25rem;
+}
+.CodePoint:nth-of-type(2n+1) {
+	background-color: rgba(0, 0, 0, .025);
+}
+.CodePoint:hover {
+	background-color: rgba(225, 61, 216, 0.1);
+}
+
+.CodePoint-code-point {
+	white-space: pre;
+	font-size: 2rem;
+}
+
+.CodePoint-utf8-bytes {
+	display: flex;
+	justify-content: center;
+}

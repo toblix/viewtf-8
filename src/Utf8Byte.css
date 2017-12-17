@@ -1,0 +1,36 @@
+.Utf8Byte {
+	margin: .1rem;
+	padding: 1rem;
+	font-family: 'monospace';
+}
+.Utf8Byte:hover {
+	background-color: rgba(0, 0, 0, .05);
+}
+.Utf8Byte--continuation {
+}
+.Utf8Byte--0 {
+	color: red;
+}
+.Utf8Byte--1 {
+	color: green;
+}
+.Utf8Byte--2 {
+	color: blue;
+}
+.Utf8Byte--3 {
+	color: purple;
+}
+
+.Utf8Byte-hex {
+	text-transform: capitalize;
+}
+
+.Utf8Byte-encoding-part {
+	color: #444;
+	cursor: help;
+	text-decoration: underline;
+}
+.Utf8Byte-encoding-part:hover {
+	background: #444;
+	color: white;
+}
