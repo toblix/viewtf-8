@@ -1,11 +1,17 @@
 .CodePoint {
 	padding: .25rem;
+	margin: 4px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+
+	transition: all 200ms;
 }
 .CodePoint:nth-of-type(2n+1) {
 	background-color: rgba(0, 0, 0, .025);
 }
 .CodePoint:hover {
-	background-color: rgba(225, 61, 216, 0.1);
+	background-color: rgba(61, 225, 195, 0.1);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 .CodePoint-code-point {

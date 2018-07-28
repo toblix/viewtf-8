@@ -2,6 +2,49 @@
   text-align: center;
 }
 
+.App-input-section {
+  margin-top: 80px;
+}
+
 .App-input {
+  font-size: 2rem;
+}
+.App-input::placeholder {
+  font-size: 1rem;
+}
+
+
+
+
+.App-ouput-section {
+  min-height: 250px;
+  margin-top: 80px;
+}
+@media only screen and (max-width : 768px) {
+  .App-ouput-section {
+    margin-top: 10px;
+  }
+}
+
+.App-empty-message {
+  margin-top: 100px;
+}
+
+hr {
+  width: 400px;
+  margin: 80px auto 40px auto;
+  border: 1px dashed rgba(34, 20, 41, 0.4);
+}
+@media only screen and (max-width : 768px) {
+  hr {
+    margin: 20px auto 10px auto;
+  }
+}
+
+.App-info-section {
+}
+
+.App-info-nail-care {
+  margin-top: 20px;
   font-size: 2rem;
 }
