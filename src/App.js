@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import utf8 from 'utf8';
+
 import Decoded from './Decoded';
 
 class App extends Component {
@@ -13,6 +15,8 @@ class App extends Component {
 
   render() {
     const { text } = this.state;
+
+    const numberOfBytes = utf8.encode(text).length;
 
     return (
       <div className="App">
@@ -41,7 +45,10 @@ class App extends Component {
         </div>
 
         <div className="App-ouput-section">
-          <h3>... aaand here are the bytes:</h3>
+          <h3>
+            { numberOfBytes === 1 && '... and here is the byte:'}
+            { numberOfBytes > 1 && `... aaand here are the ${numberOfBytes} bytes:`}
+            </h3>
           {text && (
             <Decoded
               text={text}
