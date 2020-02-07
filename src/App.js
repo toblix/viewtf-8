@@ -30,7 +30,7 @@ class App extends Component {
             👀
           </span>
         </h1>
-        <h2>Analyze UTF-8 encoded text</h2>
+        <p>Analyze UTF-8 encoded text, marvel at the bytes and Unicode codepoints inside!</p>
 
         <div className="App-input-section">
           <label>
