@@ -32,9 +32,6 @@ class App extends Component {
         </h1>
         <p>Analyze UTF-8 encoded text, marvel at the bytes and Unicode codepoints inside!</p>
 
-        {/* Media.net banner ad */}
-        <div id="487842002" />
-
         <div className="App-input-section">
           <label>
             <h3>Feel free to put some text in here:</h3>
