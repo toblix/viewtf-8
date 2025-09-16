@@ -4,7 +4,7 @@
  * See http://bit.ly/2tRViJ9
  */
 
-module.exports = function (obj) {
+export default function (obj) {
 	let cls = '';
 	for (const k in obj) {
 		if (obj[k]) {

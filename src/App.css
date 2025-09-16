@@ -42,9 +42,10 @@ hr {
 }
 
 .App-info-section {
+    line-height: 1.6;
 }
 
 .App-info-nail-care {
-  margin-top: 20px;
+  margin-top: 16px;
   font-size: 2rem;
 }

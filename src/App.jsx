@@ -22,7 +22,7 @@ class App extends Component {
       <div className="App">
 
         <h1>
-          ViewTF-8
+          ViewTF-8{' '}
           <span
             role="img"
             aria-label="Eyes emoji"
@@ -62,8 +62,11 @@ class App extends Component {
         <hr />
 
         <div className="App-info-section">
-          <h3>Wow!</h3>
-          UTF-8 is great; read more about it on <a href="https://en.wikipedia.org/wiki/UTF-8">Wikipedia!</a>
+            Torbjørn Grønnevik Dahle made this in 2017.
+            <br/>
+            Listen to his music <a href="https://open.spotify.com/artist/5Gg34dMNjhkrlu0bHKWnyZ">here</a>!
+            <br/>
+            Read more about UTF-8 on <a href="https://en.wikipedia.org/wiki/UTF-8">Wikipedia!</a>.
           <div className="App-info-nail-care">
             <span
               role="img"

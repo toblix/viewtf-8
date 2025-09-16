@@ -35,7 +35,7 @@ class Utf8Byte extends Component {
 					{byte}
 				</div>
 				<div className="Utf8Byte-hex">
-					#{byte.toString(16).padStart(2, '0')}
+					#{byte.toString(16).toUpperCase().padStart(2, '0')}
 				</div>
 				<div className="Utf8Byte-binary">
 					<span
